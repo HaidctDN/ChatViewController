@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name = 'ChatViewController'
-  s.version = '1.2.0'
+  s.version = '1.1.0'
   s.license = 'MIT'
   s.summary = 'ChatViewController, ChatBar, ImagePicker like Slack Application.'
   s.homepage = 'https://github.com/hoangtaiki/ChatViewController'
@@ -9,7 +9,7 @@ Pod::Spec.new do |s|
 
   s.requires_arc = true
   s.platform = :ios, "10.0"
-  s.swift_version = '5.0'
+  s.swift_version = '4.2'
 
   s.source_files = 'Source/**/*.swift'
   s.resource_bundles = {'ChatViewController' => ['Source/Resources/**/*.{png,xcassets,xib}']}
